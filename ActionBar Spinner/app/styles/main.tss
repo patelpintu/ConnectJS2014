@@ -1,0 +1,8 @@
+"Window":{
+	backgroundColor: "#fff"
+}
+
+"ScrollableView":{
+	scrollingEnabled: false,
+	showPagingControl: false
+}

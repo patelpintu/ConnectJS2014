@@ -1,0 +1,14 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="Window 1">
+			<Window title="Window 1">
+				<Require src="window1"/>
+			</Window>
+		</Tab>
+		<Tab title="Window 1">
+			<Window title="Window 2">
+				<Require src="window2"/>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>

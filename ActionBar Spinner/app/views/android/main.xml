@@ -1,0 +1,8 @@
+<Alloy>
+	<Window id="container" onOpen="doopen">
+		<ScrollableView id="tabs">
+			<Require src="window1"/>
+			<Require src="window2"/>
+		</ScrollableView>
+	</Window>
+</Alloy>
