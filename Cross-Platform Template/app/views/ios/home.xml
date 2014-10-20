@@ -1,5 +1,7 @@
+<!-- This is your iOS view.  Could contain any iOS-specific UI controls.  The content of the Window is being -->
+<!-- included via the Require tag, in case you wish to keep the contents reusable -->
 <Alloy>
 	<Window class="container">
-		<Label>Welcome to iOS</Label>
+		<Require src="sharedhome" id="sharedhome"/>
 	</Window>
 </Alloy>
