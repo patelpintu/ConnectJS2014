@@ -1,15 +1,11 @@
-".container": {
-	backgroundColor:"white"
+"#win[platform=ios]":{
+	title: "iOS Window"
 }
 
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
+"#win[platform=android]":{
+	title: "Android Window"
 }
 
-"#label": {
-	font: {
-		fontSize: 12
-	}
+".container":{
+	backgroundColor: "#fff"
 }

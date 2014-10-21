@@ -11,3 +11,11 @@ if (OS_IOS){
 }else if (OS_ANDROID){
 	$.sharedhome.greeting.text = "Hello from Android"
 }
+
+function doopen(evt){
+	if (OS_ANDROID){
+		var abx=require('com.alcoapps.actionbarextras');
+		abx.setTitleColor('#000000');
+		abx.setBackgroundColor('#dddddd');
+	}
+}

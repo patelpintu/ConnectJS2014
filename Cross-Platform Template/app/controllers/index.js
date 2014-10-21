@@ -1,5 +1,3 @@
-/*
-This is your "bootstrapping" controller.  Do anything you need to do before you launch the first view of your app
-*/
+// do anything you need before the first screen
 
 Alloy.createController('home').getView().open();
